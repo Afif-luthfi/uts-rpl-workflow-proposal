@@ -2,9 +2,14 @@
 
 Draf untuk review UTS Rekayasa Perangkat Lunak Lanjut
 
-Nama: [isi sendiri]  
-NIM: [isi sendiri]  
-Kelas: [isi sendiri]  
+Nama: Afif Luthfi
+
+NIM: 12409011050101
+
+Kelas: [isi sendiri]
+
+Repositori GitHub: https://github.com/Afif-luthfi/uts-rpl-workflow-proposal
+
 Tanggal pengerjaan: 13 Oktober 2026
 
 Dokumen ini menjelaskan aplikasi kecil untuk mengatur pemeriksaan proposal
@@ -267,7 +272,7 @@ mencocokkan klaim terhadap kode dan bukti. Brevity diterapkan dengan memilih
 penjelasan yang relevan terhadap tugas. Clarity diterapkan dengan urutan
 konsep, konfigurasi, model, implementasi, lalu pengujian.
 
-Repositori GitHub disiapkan private sesuai pilihan pemilik akun. Source code,
+Repositori GitHub dipublikasikan sesuai permintaan pemilik akun. Source code,
 model, dokumentasi, dan workflow CI disertakan. File database lokal, cache
 dependensi, hasil build, dan token tidak dimasukkan ke repository. GitHub
 Actions menjalankan `mvn verify` menggunakan Java 21. Status eksekusi CI
@@ -276,9 +281,9 @@ harus dibaca dari bukti aktual, bukan diasumsikan dari keberadaan file YAML.
 Alamat repositori: https://github.com/Afif-luthfi/uts-rpl-workflow-proposal
 
 Instruksi soal meminta berbagi GitHub kepada dosen pada
-`rizalbroer@uinjkt.ac.id`. Sebelum berbagi, pemilik perlu meninjau isi dan
-memberi akses ke repositori private atau mengubah visibilitasnya. Tidak ada
-undangan maupun email yang dikirim pada tahap review ini.
+`rizalbroer@uinjkt.ac.id`. Repositori bersifat publik sehingga dapat dibaca
+melalui tautan tanpa undangan. Pemilik tetap perlu meninjau isi dan mengirimkan
+tautan kepada dosen; belum ada email yang dikirim pada tahap review ini.
 
 ## 7 Kesimpulan dan pekerjaan lanjutan
 
@@ -286,9 +291,9 @@ Implementasi menghubungkan model BPMN executable dengan aplikasi Java kecil.
 Tugas manusia, percabangan keputusan, pengulangan revisi, dan layanan otomatis
 terwakili dalam model serta diakses melalui portal. Bahan yang dihasilkan
 memungkinkan peninjauan hubungan antara prosedur bisnis, variabel proses,
-kode Java, dan pengujian. Sebelum pengumpulan, penulis perlu mengisi identitas,
+kode Java, dan pengujian. Sebelum pengumpulan, penulis perlu melengkapi kelas,
 menulis ulang penjelasan mandiri, menjalankan demonstrasi sendiri, dan
-menyelesaikan pembagian akses GitHub kepada dosen.
+mengirimkan tautan GitHub kepada dosen.
 
 ## Daftar rujukan
 

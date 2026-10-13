@@ -30,6 +30,7 @@ def inline(text):
     text = escape(text)
     text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
     text = re.sub(r'`([^`]+)`', r'<font color="#193956">\1</font>', text)
+    text = re.sub(r'(https://github\.com/Afif-luthfi/uts-rpl-workflow-proposal)', r'<link href="\1" color="#193956">\1</link>', text)
     return text
 lines = (root/'docs/LAPORAN_DRAF.md').read_text(encoding='utf-8').splitlines()
 i = 0
@@ -101,7 +102,7 @@ def footer(canvas,doc):
     canvas.setFont('Arial',8);canvas.setFillColor(colors.HexColor('#536273'))
     canvas.drawString(50,25,'UTS RPL Lanjut | Draf untuk review | 13 Oktober 2026')
     canvas.drawRightString(canvas._pagesize[0]-50,25,str(doc.page))
-doc=BaseDocTemplate(str(out),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=44,bottomMargin=45,title='Implementasi Workflow Proposal Skripsi dengan BPMN dan Spring Boot',author='Draf untuk review mahasiswa')
+doc=BaseDocTemplate(str(out),pagesize=(595.28,841.89),rightMargin=50,leftMargin=50,topMargin=44,bottomMargin=45,title='Implementasi Workflow Proposal Skripsi dengan BPMN dan Spring Boot',author='Afif Luthfi')
 doc.addPageTemplates([
     PageTemplate(id='portrait',frames=[Frame(50,45,495,752,leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],pagesize=(595.28,841.89),onPage=footer),
     PageTemplate(id='landscape',frames=[Frame(50,42,741,515,leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],pagesize=(841.89,595.28),onPage=footer)

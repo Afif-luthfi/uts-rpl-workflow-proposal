@@ -7,7 +7,10 @@ menjadi pembimbing, lalu ketua prodi memutuskan.
 
 **Status: bahan review dan pembelajaran.** Soal melarang menyalin langsung
 tulisan AI. Pelajari kode, uji sendiri, perbaiki draf laporan dengan bahasa
-sendiri, serta isi identitas sebelum mengumpulkan.
+sendiri, serta lengkapi kelas sebelum mengumpulkan.
+
+Nama: Afif Luthfi  
+NIM: 12409011050101
 
 ## Menjalankan
 
@@ -16,7 +19,7 @@ Bahan review: [laporan PDF](output/pdf/Laporan_UTS_Workflow_Proposal_DRAF.pdf),
 [rekaman demo](docs/bukti/demo-workflow.webm), dan
 [pemetaan terhadap soal](docs/STATUS_REVIEW.md).
 
-Repositori private: <https://github.com/Afif-luthfi/uts-rpl-workflow-proposal>.
+Repositori publik: <https://github.com/Afif-luthfi/uts-rpl-workflow-proposal>.
 
 Prasyarat: JDK 21 (direkomendasikan), Maven 3.9+, internet untuk unduhan awal.
 Kode dikompilasi dengan target Java 17. Versi lingkungan yang benar-benar

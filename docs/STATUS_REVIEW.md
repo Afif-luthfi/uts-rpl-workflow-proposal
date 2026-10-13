@@ -7,19 +7,19 @@
 | Kasus sederhana dari BPMN menjadi aplikasi Java | 50% | Model executable, backend, portal, revisi, keputusan, draf | 9 tes integrasi dan 19 uji browser lulus |
 | Tulisan, print screen, dan rekaman | 7.5% | PDF 18 halaman, Markdown, 19 screenshot, video WebM | Tersedia untuk review |
 | Penyajian runtut dan ABC | 7.5% | Konsep, setup, studi kasus, model, implementasi, pengujian | Draf runtut; ABC dijelaskan sebagai interpretasi kerja |
-| Dokumentasi GitHub dan berbagi dengan dosen | 15% | Repo private dan CI berhasil | Repo siap; akses dosen belum dibagikan |
+| Dokumentasi GitHub dan berbagi dengan dosen | 15% | Repo publik dan CI berhasil | Dapat diakses; tautan belum dikirim kepada dosen |
 
 Bobot di atas disalin sebagai pemetaan persyaratan, bukan estimasi nilai.
 
 ## Yang perlu dilakukan pemilik sebelum pengumpulan
 
-1. Isi nama, NIM, dan kelas pada draf laporan.
+1. Nama Afif Luthfi dan NIM 12409011050101 sudah diisi; lengkapi kelas.
 2. Pelajari program dan tulis ulang narasi dengan bahasa sendiri sesuai aturan
    larangan menyalin langsung dari AI pada soal.
 3. Jalankan demo sendiri dan beri narasi bila memakai rekaman yang disediakan.
    Rekaman saat ini merupakan uji browser otomatis asli tanpa suara.
-4. Setelah review, bagikan akses repo kepada dosen sesuai alamat pada soal.
-   Repo masih private; tautan saja belum memberi akses kepada orang lain.
+4. Setelah review, kirimkan tautan repo kepada dosen sesuai alamat pada soal.
+   Repo sudah publik sehingga dapat dibaca tanpa undangan.
 
 ## Batas aplikasi
 

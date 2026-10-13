@@ -40,11 +40,11 @@ Tambahkan penjelasan pribadi atau buat rekaman ulang setelah memahami alurnya.
 
 ## Sebelum mengumpulkan
 
-- Isi nama, NIM, kelas, dan tanggal sesuai identitas sendiri.
+- Nama Afif Luthfi dan NIM 12409011050101 sudah diisi; lengkapi kelas.
 - Tulis ulang penjelasan berdasarkan pemahaman; jangan langsung mengumpulkan
   draf AI ini sebagai tulisan mandiri.
 - Cek semua bukti dan jalankan demo sendiri. Bedakan simulasi dari fitur nyata.
-- Repositori private perlu diberi akses kepada dosen atau diubah visibilitasnya
-  setelah review. Instruksi soal menyebut `rizalbroer@uinjkt.ac.id`.
+- Repositori sudah publik dan dapat dibaca melalui tautan. Setelah review,
+  kirimkan tautannya sesuai instruksi soal kepada `rizalbroer@uinjkt.ac.id`.
 - Pengiriman email atau undangan GitHub dilakukan setelah keputusan pemilik
   akun. Tidak ada email atau undangan yang dikirim otomatis oleh proyek ini.
