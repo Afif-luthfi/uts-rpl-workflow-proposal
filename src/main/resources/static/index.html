@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Proposal Skripsi | Demo UTS</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><div class="brand">Proposal Skripsi <span>Praktikum BPMN</span></div><nav aria-label="Navigasi utama"><a href="#daftar">Daftar proposal</a><a href="#ajukan">Ajukan proposal</a><a href="/model.html">Model BPMN</a></nav></header>
+<div class="notice">Demo lokal UTS. Gunakan data contoh. Pemilih peran mensimulasikan aktor; aplikasi belum menggunakan autentikasi pengguna.</div>
+<main>
+  <div id="message" role="status" aria-live="polite" hidden></div>
+  <section id="list-view"><div class="section-head"><div><h1>Daftar proposal</h1><p>Lihat tahap pemeriksaan dan lanjutkan tugas yang menunggu.</p></div><a class="button" href="#ajukan">Ajukan proposal</a></div>
+    <div class="toolbar"><label for="role">Tampilkan tugas untuk<select id="role"><option value="SEMUA">Semua peran</option><option value="MAHASISWA">Mahasiswa</option><option value="SEKPRODI">Sekretaris prodi</option><option value="DOSEN">Dosen</option><option value="KAPRODI">Ketua prodi</option></select></label><button type="button" id="reload" class="secondary">Muat ulang</button></div>
+    <div id="list" aria-live="polite">Memuat daftar proposal...</div>
+  </section>
+  <section id="create-view" hidden><h1>Ajukan proposal</h1><p>Isi identitas demo dan tautan dokumen. Pengajuan akan masuk ke sekretaris prodi.</p>
+    <form id="create-form" class="paper">
+      <div class="fields"><label>Nama mahasiswa<input name="nama" required maxlength="100" autocomplete="name"></label><label>NIM<input name="nim" required pattern="[0-9]{8,20}" title="8 sampai 20 angka" maxlength="20" inputmode="numeric"></label></div>
+      <label>Email mahasiswa<input name="email" type="email" required maxlength="150" autocomplete="email"><small>Notifikasi dicatat dalam aplikasi; tidak ada email yang dikirim.</small></label>
+      <label>Judul proposal<input name="judul" required minlength="10" maxlength="200"></label>
+      <label>Ringkasan proposal<textarea name="ringkasan" required minlength="20" maxlength="3000" rows="5"></textarea></label>
+      <label>Tautan dokumen proposal<input name="tautan" type="url" required maxlength="500" placeholder="https://..."><small>Gunakan tautan http/https. File tidak diunggah atau diambil oleh aplikasi.</small></label>
+      <div class="actions"><button type="submit">Kirim pengajuan</button><a href="#daftar">Kembali ke daftar</a></div>
+    </form>
+  </section>
+  <section id="detail-view" hidden></section>
+</main>
+<footer>Studi kasus adaptasi pengajuan proposal skripsi. <a href="/api/hello" target="_blank" rel="noopener">Uji Hello World</a> · <a href="/camunda/app/welcome/default/" target="_blank" rel="noopener">Camunda Cockpit</a></footer>
+</body></html>

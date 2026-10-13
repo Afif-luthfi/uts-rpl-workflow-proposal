@@ -1,0 +1,10 @@
+target/
+data/
+.tools/
+node_modules/
+*.log
+.env
+.idea/
+.vscode/
+docs/bukti/video/
+docs/bukti/*-probe.png
