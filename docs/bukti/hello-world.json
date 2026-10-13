@@ -1,0 +1,6 @@
+{
+  "processKey": "proposal_skripsi",
+  "message": "Hello World dari Spring Boot dan Camunda!",
+  "bpmnDeployed": true,
+  "mode": "Demo lokal"
+}

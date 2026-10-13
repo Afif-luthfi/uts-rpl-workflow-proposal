@@ -37,7 +37,9 @@ while i < len(lines):
     line = lines[i].strip()
     if not line: i += 1; continue
     if line.startswith('# '): story.append(Paragraph(inline(line[2:]), styles['TitleID'])); i += 1
-    elif line.startswith('## '): story.append(Paragraph(inline(line[3:]), styles['HeadingID'])); i += 1
+    elif line.startswith('## '):
+        if line == '## Daftar rujukan': story.append(PageBreak())
+        story.append(Paragraph(inline(line[3:]), styles['HeadingID'])); i += 1
     elif line.startswith('### '): story.append(Paragraph(inline(line[4:]), styles['SubID'])); i += 1
     elif line.startswith('|'):
         rows=[]
@@ -68,7 +70,7 @@ for line in (evidence/'browser-check.txt').read_text(encoding='utf-8').splitline
 
 screens = [
  ('12-hello-world.png','Hello World dan deployment','Respons menunjukkan bahwa aplikasi web dan definisi BPMN aktif.'),
- ('11-bpmn.png','Model BPMN executable','Tugas manusia, gateway, loop revisi, serta dua hasil akhir ditampilkan dari XML yang dijalankan engine.'),
+ ('19-diagram-detail.png','Model BPMN executable','Tugas manusia, gateway, loop revisi, serta dua hasil akhir ditampilkan dari XML yang dijalankan engine.'),
  ('03-verifikasi.png','Pengajuan masuk ke verifikasi','Data DEMO menghasilkan tugas sekretaris prodi dan riwayat awal.'),
  ('04-revisi.png','Permintaan revisi','Mahasiswa mendapat tugas untuk memperbaiki isi pengajuan.'),
  ('05-penilaian-dosen.png','Penilaian dosen setelah revisi','Versi pengajuan meningkat; dosen mengisi kesediaan dan nama pembimbing.'),
@@ -85,13 +87,13 @@ for filename,title,caption in screens:
         original=original.crop((0,0,w,900)); h=900
         caption += ' Cuplikan bagian atas; screenshot halaman lengkap tersedia pada folder bukti.'
     content=io.BytesIO(); original.save(content,format='PNG'); content.seek(0)
-    scale=min(741/w,440/h)
+    scale=min(741/w,400/h)
     story.append(Image(content,width=w*scale,height=h*scale,hAlign='LEFT'))
     story.append(Paragraph(caption,styles['CaptionID']))
 story.append(PageBreak());story.append(Paragraph('Pemeriksaan tampilan ponsel',styles['HeadingID']))
 ims=[]
 for file in ['14-mobile-daftar.png','16-mobile-form.png']:
-    w,h=PILImage.open(evidence/file).size; scale=min(350/w,435/h)
+    w,h=PILImage.open(evidence/file).size; scale=min(350/w,400/h)
     ims.append(Image(str(evidence/file),width=w*scale,height=h*scale))
 story.append(Table([ims],colWidths=[370,370]))
 story.append(Paragraph('Daftar dan formulir pada lebar viewport 390 piksel. Tabel dapat digeser di dalam kontainernya tanpa menyebabkan overflow halaman.',styles['CaptionID']))

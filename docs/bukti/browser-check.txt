@@ -1,0 +1,19 @@
+PASS: Halaman daftar dan keadaan awal tampil
+PASS: Form kosong ditahan validasi browser
+PASS: Pengajuan membuat tugas verifikasi
+PASS: Revisi menaikkan versi dan kembali ke sekretaris prodi
+PASS: Dosen dan ketua prodi menyelesaikan proses; riwayat dan notifikasi ditampilkan
+PASS: Tautan draf membuka keluaran Java delegate
+PASS: Tautan dokumen membuka URL contoh pada tab baru
+PASS: Penolakan mengakhiri proses tanpa draf
+PASS: Filter peran dan keadaan hasil kosong
+PASS: Semua peran dan muat ulang daftar
+PASS: Viewer BPMN, zoom, fit, dan unduh XML
+PASS: Navigasi keyboard memiliki indikator fokus
+PASS: Hello World membuktikan deployment aktif
+PASS: Tautan alat Camunda membuka webapp
+PASS: Daftar dan detail pada lebar 390px tanpa overflow halaman
+PASS: Form dan model pada lebar 390px tanpa overflow
+PASS: Kegagalan API menghasilkan pesan error dan petunjuk pemulihan
+PASS: Muat ulang berhasil membersihkan pesan error
+PASS: Tidak ada JavaScript page error selama alur

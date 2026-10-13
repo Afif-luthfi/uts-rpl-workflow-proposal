@@ -1,0 +1,128 @@
+[
+  {
+    "id": "f364cf83-c6bb-11f1-8a13-0a002700000c",
+    "nomor": "PS-5F4AEDDF",
+    "mulai": "2026-10-13T04:09:56.985+00:00",
+    "selesai": "2026-10-13T04:09:57.188+00:00",
+    "data": {
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Penolakan",
+      "tautan": "https://example.com/",
+      "versi": 1,
+      "hasil": "DITOLAK",
+      "keputusan": "TOLAK",
+      "judul": "DEMO Penolakan Pengelolaan Dokumen Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal ditolak. Tidak ada email dikirim.",
+      "ringkasan": "Data demonstrasi untuk menguji alur pemeriksaan proposal. Penelitian berfokus pada pencatatan keputusan dan riwayat revisi dokumen.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DITOLAK"
+  },
+  {
+    "id": "edc28c82-c6bb-11f1-8a13-0a002700000c",
+    "nomor": "PS-C5E22C1D",
+    "mulai": "2026-10-13T04:09:47.535+00:00",
+    "selesai": "2026-10-13T04:09:53.699+00:00",
+    "data": {
+      "pembimbing": "Dosen Pembimbing DEMO",
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Revisi",
+      "tautan": "https://example.com/",
+      "versi": 2,
+      "nomorDraft": "DRAFT-PS-C5E22C1D",
+      "hasil": "DISETUJUI",
+      "keputusan": "SETUJU",
+      "judul": "DEMO Revisi Evaluasi Workflow Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal disetujui. Tidak ada email dikirim.",
+      "ringkasan": "Revisi DEMO: evaluasi menggunakan pengujian integrasi dan skenario persetujuan, revisi, serta penolakan. Ruang lingkup dibatasi pada satu pembimbing.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DISETUJUI"
+  },
+  {
+    "id": "8ec3d9e3-c6bb-11f1-ad56-0a002700000c",
+    "nomor": "PS-9296CA9C",
+    "mulai": "2026-10-13T04:07:08.158+00:00",
+    "selesai": "2026-10-13T04:07:08.299+00:00",
+    "data": {
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Penolakan",
+      "tautan": "https://example.com/",
+      "versi": 1,
+      "hasil": "DITOLAK",
+      "keputusan": "TOLAK",
+      "judul": "DEMO Penolakan Pengelolaan Dokumen Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal ditolak. Tidak ada email dikirim.",
+      "ringkasan": "Data demonstrasi untuk menguji alur pemeriksaan proposal. Penelitian berfokus pada pencatatan keputusan dan riwayat revisi dokumen.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DITOLAK"
+  },
+  {
+    "id": "89169b62-c6bb-11f1-ad56-0a002700000c",
+    "nomor": "PS-6A529ED1",
+    "mulai": "2026-10-13T04:06:58.636+00:00",
+    "selesai": "2026-10-13T04:07:04.833+00:00",
+    "data": {
+      "pembimbing": "Dosen Pembimbing DEMO",
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Revisi",
+      "tautan": "https://example.com/",
+      "versi": 2,
+      "nomorDraft": "DRAFT-PS-6A529ED1",
+      "hasil": "DISETUJUI",
+      "keputusan": "SETUJU",
+      "judul": "DEMO Revisi Evaluasi Workflow Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal disetujui. Tidak ada email dikirim.",
+      "ringkasan": "Revisi DEMO: evaluasi menggunakan pengujian integrasi dan skenario persetujuan, revisi, serta penolakan. Ruang lingkup dibatasi pada satu pembimbing.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DISETUJUI"
+  },
+  {
+    "id": "102acc08-c6bb-11f1-8787-0a002700000c",
+    "nomor": "PS-506306A2",
+    "mulai": "2026-10-13T04:03:35.764+00:00",
+    "selesai": "2026-10-13T04:03:35.968+00:00",
+    "data": {
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Penolakan",
+      "tautan": "https://example.com/",
+      "versi": 1,
+      "hasil": "DITOLAK",
+      "keputusan": "TOLAK",
+      "judul": "DEMO Penolakan Pengelolaan Dokumen Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal ditolak. Tidak ada email dikirim.",
+      "ringkasan": "Data demonstrasi untuk menguji alur pemeriksaan proposal. Penelitian berfokus pada pencatatan keputusan dan riwayat revisi dokumen.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DITOLAK"
+  },
+  {
+    "id": "0a3fe747-c6bb-11f1-8787-0a002700000c",
+    "nomor": "PS-E0ED00D0",
+    "mulai": "2026-10-13T04:03:25.835+00:00",
+    "selesai": "2026-10-13T04:03:32.025+00:00",
+    "data": {
+      "pembimbing": "Dosen Pembimbing DEMO",
+      "nim": "12345678901",
+      "nama": "Mahasiswa DEMO Revisi",
+      "tautan": "https://example.com/",
+      "versi": 2,
+      "nomorDraft": "DRAFT-PS-E0ED00D0",
+      "hasil": "DISETUJUI",
+      "keputusan": "SETUJU",
+      "judul": "DEMO Revisi Evaluasi Workflow Proposal Skripsi",
+      "notifikasi": "Simulasi notifikasi untuk demo@example.com: proposal disetujui. Tidak ada email dikirim.",
+      "ringkasan": "Revisi DEMO: evaluasi menggunakan pengujian integrasi dan skenario persetujuan, revisi, serta penolakan. Ruang lingkup dibatasi pada satu pembimbing.",
+      "email": "demo@example.com"
+    },
+    "tugas": [],
+    "status": "DISETUJUI"
+  }
+]

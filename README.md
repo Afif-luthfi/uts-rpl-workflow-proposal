@@ -11,6 +11,13 @@ sendiri, serta isi identitas sebelum mengumpulkan.
 
 ## Menjalankan
 
+Bahan review: [laporan PDF](output/pdf/Laporan_UTS_Workflow_Proposal_DRAF.pdf),
+[draf yang bisa diedit](docs/LAPORAN_DRAF.md),
+[rekaman demo](docs/bukti/demo-workflow.webm), dan
+[pemetaan terhadap soal](docs/STATUS_REVIEW.md).
+
+Repositori private: <https://github.com/Afif-luthfi/uts-rpl-workflow-proposal>.
+
 Prasyarat: JDK 21 (direkomendasikan), Maven 3.9+, internet untuk unduhan awal.
 Kode dikompilasi dengan target Java 17. Versi lingkungan yang benar-benar
 dipakai dicatat dalam `docs/bukti/lingkungan.txt`.
@@ -98,3 +105,6 @@ Server terikat ke `127.0.0.1`; jangan gunakan konfigurasi ini di server publik.
 
 Viewer menggunakan bpmn-js 18.6.2. Lisensinya disertakan di
 `src/main/resources/static/vendor/BPMN-JS-LICENSE.txt`; watermark bpmn.io dipertahankan.
+
+Hasil pemeriksaan antarmuka dan bukti per aturan tersedia di
+[REVIEW_QA.md](docs/REVIEW_QA.md).

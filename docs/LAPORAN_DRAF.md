@@ -243,6 +243,10 @@ Rangkaian tes memeriksa deployment, jalur persetujuan, revisi dari dua tahap,
 penolakan di tiga tahap, validasi, peran salah, dan penyelesaian ganda.
 Hasil eksekusi final dicatat dalam `docs/bukti/hasil-pengujian.txt`.
 
+Hasil pengujian pada JDK 21 adalah 9 tes, 0 kegagalan, 0 error, dan 0 tes
+dilewati. Uji browser menghasilkan 19 pemeriksaan lulus. Build pada GitHub
+Actions juga berhasil pada 13 Oktober 2026; tautan run disimpan di indeks bukti.
+
 Uji browser menambah pemeriksaan terhadap formulir, navigasi, filter, diagram,
 riwayat, tampilan ponsel, serta pesan kegagalan. Screenshot berasal dari
 aplikasi yang berjalan. Rekaman demo merupakan interaksi browser otomatis,
@@ -268,6 +272,8 @@ model, dokumentasi, dan workflow CI disertakan. File database lokal, cache
 dependensi, hasil build, dan token tidak dimasukkan ke repository. GitHub
 Actions menjalankan `mvn verify` menggunakan Java 21. Status eksekusi CI
 harus dibaca dari bukti aktual, bukan diasumsikan dari keberadaan file YAML.
+
+Alamat repositori: https://github.com/Afif-luthfi/uts-rpl-workflow-proposal
 
 Instruksi soal meminta berbagi GitHub kepada dosen pada
 `rizalbroer@uinjkt.ac.id`. Sebelum berbagi, pemilik perlu meninjau isi dan
